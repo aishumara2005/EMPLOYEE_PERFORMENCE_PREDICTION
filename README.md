@@ -173,14 +173,10 @@ python performance.py
 
 ## 👥 Team Members
 
-- S. Zainab Shereen
-- M. Aiswarya
-- C. Gayathri
-- R. Vishunu Priya
-
-**Team Name:** Data Alchemists
-
-**College:** Indra Ganesan College of Engineering
+| Name | GitHub |
+|------|---------|
+| **M. Aiswarya** | [@aishumara2005](https://github.com/aishumara2005) |
+| **S. Zainab Shereen** | [@ZainabShereen](https://github.com/ZainabShereen) |
 
 ---
 
