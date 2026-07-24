@@ -1,158 +1,166 @@
 # 🚀 Employee Performance Prediction Using XGBoost
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![XGBoost](https://img.shields.io/badge/XGBoost-Regression-green?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+---
+
 ## 📌 Project Overview
 
-Employee Performance Prediction is a Machine Learning project that predicts an employee's future performance based on historical weekly performance data. This system helps HR departments identify performance trends, improve workforce planning, and support better decision-making.
+**Employee Performance Prediction** is a Machine Learning project developed to predict an employee's future performance using historical weekly performance data.
 
-The project uses the **XGBoost Regression** algorithm to forecast employee performance for the **next 6 months (26 weeks)**.
+The system analyzes employee performance metrics such as attendance, client satisfaction, delivery efficiency, incidents, and overall score to forecast the employee's performance for the next **6 months (26 weeks)** using the **XGBoost Regression** algorithm.
+
+This project assists HR departments in identifying employee performance trends, supporting workforce planning, and making informed decisions.
 
 ---
 
 ## 🎯 Objectives
 
 - Predict employee performance for the next 6 months.
-- Analyze historical weekly performance data.
-- Help HR identify high and low-performing employees.
-- Improve workforce planning and productivity.
-- Visualize actual and predicted performance trends.
+- Analyze historical weekly employee data.
+- Identify high and low-performing employees.
+- Improve HR decision-making.
+- Visualize employee performance trends.
+- Support workforce planning using AI.
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
-- Python
-- VS Code
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Matplotlib
-- OpenPyXL
-
----
-
-## 📂 Dataset Features
-
-The model is trained using weekly employee performance data with the following attributes:
-
-- Date
-- Project
-- Client Satisfaction
-- Attendance
-- Delivery
-- Incidents
-- Score
-- Overall Performance
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| VS Code | Development Environment |
+| Pandas | Data Processing |
+| NumPy | Numerical Computation |
+| Scikit-Learn | Machine Learning Utilities |
+| XGBoost | Regression Model |
+| Matplotlib | Data Visualization |
+| OpenPyXL | Excel File Handling |
 
 ---
 
-## ⚙️ Methodology
+# 📂 Dataset Features
 
-1. Data Collection
-2. Data Preprocessing
-3. Feature Encoding
-4. Feature Selection
-5. XGBoost Regression Model Training
-6. Future Performance Prediction (26 Weeks)
-7. Result Visualization
+The dataset contains weekly employee performance records with the following features:
 
----
-
-## 🤖 Machine Learning Algorithm
-
-**Algorithm Used:** XGBoost Regression
-
-### Why XGBoost?
-
-- High prediction accuracy
-- Handles complex relationships
-- Reduces overfitting
-- Fast training and prediction
-- Suitable for structured HR datasets
+- 📅 Date
+- 📁 Project
+- 😊 Client Satisfaction
+- 📌 Attendance
+- 🚀 Delivery
+- ⚠️ Incidents
+- 📊 Score
+- ⭐ Overall Performance
 
 ---
 
-## 📊 Workflow
+# ⚙️ Methodology
 
-```text
+```
 Employee Dataset
+        │
+        ▼
+Data Collection
         │
         ▼
 Data Preprocessing
         │
         ▼
-Feature Engineering
+Feature Encoding
         │
         ▼
-XGBoost Regression
+Feature Selection
         │
         ▼
-Performance Prediction
+XGBoost Regression Model
         │
         ▼
-Next 6 Months Forecast
+Predict Next 26 Weeks
         │
         ▼
-Visualization
+Performance Visualization
 ```
 
 ---
 
-## 📈 Output
+# 🤖 Machine Learning Model
 
-The system generates:
+## Algorithm Used
 
-- Employee performance prediction for the next 26 weeks
-- Performance trend graph
-- Future performance table
+✅ XGBoost Regression
 
----
+### Why XGBoost?
 
-## 📷 Sample Output
-
-- Actual Performance Trend
-- Predicted Performance Trend
-- Weekly Forecast Report
-
-> *(Add screenshots of your graph here after running the project.)*
+- High Prediction Accuracy
+- Handles Complex Relationships
+- Reduces Overfitting
+- Fast Training
+- Suitable for HR Analytics
+- Excellent Performance on Structured Data
 
 ---
 
-## 📁 Project Structure
+# 📈 Output
 
-```text
-Employee_Performance_Prediction/
+The project predicts:
+
+- Employee Performance for Next 26 Weeks
+- Weekly Performance Forecast
+- Performance Trend Graph
+- Future Performance Report
+
+---
+
+# 📷 Sample Output
+
+After running the project, add screenshots of:
+
+- 📈 Actual Performance Graph
+- 📉 Predicted Performance Graph
+- 📋 Weekly Prediction Table
+
+---
+
+# 📁 Project Structure
+
+```
+EMPLOYEE_PERFORMENCE_PREDICTION/
 │
 ├── REPORT_WEEKLY.xlsx
 ├── performance.py
 ├── README.md
 ├── requirements.txt
-└── output/
+├── output/
+└── images/
 ```
 
 ---
 
-## ▶️ Installation
+# ▶️ Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/Employee_Performance_Prediction.git
-```
-
-Go to the project folder:
+### Clone Repository
 
 ```bash
-cd Employee_Performance_Prediction
+git clone https://github.com/aishumara2005/EMPLOYEE_PERFORMENCE_PREDICTION.git
 ```
 
-Install dependencies:
+### Open Project
+
+```bash
+cd EMPLOYEE_PERFORMENCE_PREDICTION
+```
+
+### Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the project:
+### Run Project
 
 ```bash
 python performance.py
@@ -160,38 +168,74 @@ python performance.py
 
 ---
 
-## 📌 Future Enhancements
+# 📦 Requirements
 
-- Streamlit Web Dashboard
-- Real-time Employee Monitoring
-- Email Alerts for HR
-- Performance Risk Detection
-- Department-wise Analytics
-- AI-based Performance Recommendations
+- Python 3.10+
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- xgboost
+- openpyxl
 
 ---
 
-## 👥 Team Members
+# 🚀 Future Enhancements
 
-| Name | GitHub |
-|------|---------|
+- 🌐 Streamlit Dashboard
+- 📊 HR Analytics Dashboard
+- 📧 Email Alerts
+- 📱 WhatsApp Notifications
+- 🤖 AI Performance Recommendation
+- 📉 Performance Risk Detection
+- 📅 Monthly Prediction Reports
+- 🏢 Department-wise Analytics
+
+---
+
+# 👥 Team Members
+
+| Name | GitHub Profile |
+|------|----------------|
 | **M. Aiswarya** | [@aishumara2005](https://github.com/aishumara2005) |
 | **S. Zainab Shereen** | [@ZainabShereen](https://github.com/ZainabShereen) |
 
----
+**👨‍💻 Team Name:** Data Alchemists
 
-## 📜 License
-
-This project is developed for educational and academic purposes.
+**🏫 College:** Indra Ganesan College of Engineering
 
 ---
 
-## ⭐ Support
+# 📜 License
 
-If you like this project, don't forget to **⭐ Star** this repository!
+This project is developed for educational and academic purposes only.
 
 ---
 
-### 💡 Quote
+# ⭐ Support
 
-> "Predicting employee performance today helps organizations build a stronger workforce for tomorrow."
+If you found this project useful,
+
+⭐ **Star this Repository**
+
+🍴 **Fork this Repository**
+
+🤝 **Contribute to this Project**
+
+---
+
+# 💡 Quote
+
+> **"Predicting employee performance today helps organizations build a stronger workforce for tomorrow."**
+
+---
+
+## 📬 Contact
+
+**M. Aiswarya**
+
+🔗 GitHub: https://github.com/aishumara2005
+
+**S. Zainab Shereen**
+
+🔗 GitHub: https://github.com/ZainabShereen
