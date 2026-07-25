@@ -232,11 +232,5 @@ If you found this project useful,
 
 ## 📬 Contact
 
-**M. Aiswarya**
-
-🔗 GitHub: https://github.com/aishumara2005
-
-**S. Zainab Shereen**
-> Updated by ZainabShereen
-
-🔗 GitHub: https://github.com/ZainabShereen
+* **M. Aiswarya** | 🔗 GitHub: https://github.com/aishumara2005
+* **S. Zainab Shereen** | 🔗 GitHub: https://github.com/ZainabShereen
