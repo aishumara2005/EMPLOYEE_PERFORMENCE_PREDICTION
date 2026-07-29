@@ -193,17 +193,65 @@ python performance.py
 
 ---
 
-# 👥 Team Members
+---
 
-| Name | GitHub Profile |
-|------|----------------|
-| **M. Aiswarya** | [@aishumara2005](https://github.com/aishumara2005) |
-| **S. Zainab Shereen** | [@ZainabShereen](https://github.com/ZainabShereen) |
+# 👥 Development Team
 
-**👨‍💻 Team Name:** Data Alchemists
+<table>
+<tr>
 
-**🏫 College:** Indra Ganesan College of Engineering
+<td align="center" width="50%">
 
+<a href="https://github.com/aishumara2005">
+<img src="https://github.com/aishumara2005.png" width="130px" alt="Aiswarya"/>
+</a>
+
+### 👩‍💻 M. Aiswarya
+
+**🤖 Machine Learning Developer**
+
+- 📊 Data Preprocessing
+- 🤖 XGBoost Model Development
+- 📈 Performance Prediction
+- 📑 Data Visualization
+
+<a href="https://github.com/aishumara2005">
+<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github">
+</a>
+
+</td>
+
+<td align="center" width="50%">
+
+<a href="https://github.com/ZainabShereen">
+<img src="https://github.com/ZainabShereen.png" width="130px" alt="Zainab"/>
+</a>
+
+### 👩‍💻 S. Zainab Shereen
+
+**🤖 Machine Learning Developer**
+
+- 📂 Dataset Preparation
+- 🧪 Model Testing
+- 📋 Performance Evaluation
+- 📄 Documentation
+
+<a href="https://github.com/ZainabShereen">
+<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github">
+</a>
+
+</td>
+
+</tr>
+</table>
+
+### 👨‍💻 Team Name
+**Data Alchemists**
+
+### 🏫 College
+**Indra Ganesan College of Engineering**
+
+---
 ---
 
 # 📜 License
